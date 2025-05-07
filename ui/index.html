@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Santos Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div class="job-menu">
+            <div class="tabs">
+                <div class="tab active" data-tab="jobs">Jobs</div>
+                <div class="tab" data-tab="licenses">Online Desk</div>
+            </div>
+            <div class="content active" id="jobsContent">
+                <div class="header">
+                    <h1>Los Santos Job Center</h1>
+                    <p>Select a job to begin your career</p>
+                </div>
+                <div class="job-list" id="jobList">
+                    <!-- Jobs will be populated here by JavaScript -->
+                </div>
+            </div>
+            <div class="content" id="licensesContent">
+                <div class="header">
+                    <h1>Los Santos Online Desk</h1>
+                    <p>Apply for official documents</p>
+                </div>
+                <div class="license-list" id="licenseList">
+                    <!-- Licenses will be populated here by JavaScript -->
+                </div>
+            </div>
+            <div class="footer">
+                <button id="closeButton" class="close-btn">
+                    <i class="fas fa-times"></i> Close
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
